@@ -15,7 +15,7 @@ namespace FlightSearchApi.Plugins
             _cacheProvider = cacheProvider;
             _dataStore = dataStore;
         }
-        public async Task<List<Flight>> GetFlightData(CancellationToken cancellationToken)
+        public async Task<List<Flight>> GetFlightDataAsync(CancellationToken cancellationToken)
         {
             var response = await _cacheProvider.GetItemAsync<List<Flight>>("CacheFlightData", cancellationToken);
             if (response == null)
