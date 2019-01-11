@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSearchApi.Web", "src\FlightSearchApi.Web\FlightSearchApi.Web.csproj", "{F096F4A6-475C-4085-9576-A48329A70973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSearchApi.Contracts", "src\FlightSearchApi.Contracts\FlightSearchApi.Contracts.csproj", "{DA9185B6-EF8B-48E3-887B-91B901FAECEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSearchApi.Core", "src\FlightSearchApi.Core\FlightSearchApi.Core.csproj", "{9BDF7D86-A335-4DA7-9708-53E8C2578EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSearchApi.Plugins", "src\FlightSearchApi.Plugins\FlightSearchApi.Plugins.csproj", "{BFE837FE-D987-432D-8E16-F53D8A80F5AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F096F4A6-475C-4085-9576-A48329A70973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F096F4A6-475C-4085-9576-A48329A70973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F096F4A6-475C-4085-9576-A48329A70973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F096F4A6-475C-4085-9576-A48329A70973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9185B6-EF8B-48E3-887B-91B901FAECEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9185B6-EF8B-48E3-887B-91B901FAECEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9185B6-EF8B-48E3-887B-91B901FAECEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9185B6-EF8B-48E3-887B-91B901FAECEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDF7D86-A335-4DA7-9708-53E8C2578EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDF7D86-A335-4DA7-9708-53E8C2578EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDF7D86-A335-4DA7-9708-53E8C2578EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDF7D86-A335-4DA7-9708-53E8C2578EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE837FE-D987-432D-8E16-F53D8A80F5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE837FE-D987-432D-8E16-F53D8A80F5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE837FE-D987-432D-8E16-F53D8A80F5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE837FE-D987-432D-8E16-F53D8A80F5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {982D95E6-46EA-4FC8-96AC-BF7E06C9E0A6}
+	EndGlobalSection
+EndGlobal

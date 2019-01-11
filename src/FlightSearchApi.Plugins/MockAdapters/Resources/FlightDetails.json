@@ -1,0 +1,30 @@
+﻿[
+  {
+    "FlightNumber": "123",
+    "EquipmentCode": "452",
+    "AirlineCode": "9W",
+    "Origin": "PNQ",
+    "Destination": "NGP"
+  },
+  {
+    "FlightNumber": "456",
+    "EquipmentCode": "425",
+    "AirlineCode": "7Q",
+    "Origin": "BLR",
+    "Destination": "XCH"
+  },
+  {
+    "FlightNumber": "793",
+    "EquipmentCode": "286",
+    "AirlineCode": "WR",
+    "Origin": "BOM",
+    "Destination": "DEL"
+  },
+  {
+    "FlightNumber": "582",
+    "EquipmentCode": "201",
+    "AirlineCode": "5O",
+    "Origin": "CHN",
+    "Destination": "HYD"
+  }
+]
