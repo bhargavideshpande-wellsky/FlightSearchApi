@@ -8,6 +8,6 @@ namespace FlightSearchApi.Contracts
 {
     public interface IFlightDataService
     {
-        Task<List<Flight>> GetFlightData(CancellationToken cancellationToken);
+        Task<List<Flight>> GetFlightDataAsync(CancellationToken cancellationToken);
     }
 }
